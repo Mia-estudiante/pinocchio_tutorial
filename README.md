@@ -34,7 +34,7 @@ This tutorial series is designed to help learners understand:
 │ ├── 02_Pinocchio_Examples.pdf  
 │ ├── 03_Pinocchio_Tutorials.pdf  
 │  
-├── urdf/double_pendulum/  
+├── double_pendulum/urdf/  
 │ ├── double_pendulum_point_mass.urdf  
 │  
 ├── pinocchio/examples/  
