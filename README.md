@@ -8,7 +8,7 @@ It includes lecture slides, example codes and YouTube links covering robot dynam
 ## 🎥 Lecture Videos (YouTube)
 
 *https://youtube.com/playlist?list=PL5i0ThRFrlDXmFiudX2GwZLCyZ3KLb6uL&si=Ne1lANIXQkPWy95v*
-*https://www.youtube.com/playlist?list=PLjhswBSqp70Fyc8-ZRRJP7SNtRlcAInCa
+*https://www.youtube.com/playlist?list=PLjhswBSqp70Fyc8-ZRRJP7SNtRlcAInCa*
 - **Lecture 1:** Introduction  
 - **Lecture 2:** Pinocchio examples Walkthrough  
 - **Lecture 3:** Supaero2025 Walkthrough  
