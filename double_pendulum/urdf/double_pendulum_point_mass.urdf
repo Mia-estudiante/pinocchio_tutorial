@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<robot name="double_pendulum_point-mass">
+  <link name="base_link">
+  </link>
+  <link name="link1">
+    <inertial>
+      <!-- link1’s COM at (l1, 0, 0) -->
+      <origin xyz="1.0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0" ixy="0" ixz="0"
+               iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="link2">
+    <inertial>
+      <!-- link2’s COM at (l2, 0, 0) -->
+      <origin xyz="1.0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0" ixy="0" ixz="0"
+               iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+
+  <joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="100.0" velocity="100.0"/>
+  </joint>
+
+  <joint name="joint2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="1.0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="100.0" velocity="100.0"/>
+  </joint>
+
+
+</robot>
