@@ -37,10 +37,10 @@ This tutorial series is designed to help learners understand:
 ├── double_pendulum/urdf/  
 │ ├── double_pendulum_point_mass.urdf  
 │  
-├── pinocchio/examples/  
+├── examples/  
 │ ├── inverse_dynamics_pm.py  
 │ ├── forward_dynamics_aba.py  
-│ ├── meshcat_viewer.py (go2)  
+│ ├── meshcat-viewer.py (go2)  
 │  
 └── README.md  
 
