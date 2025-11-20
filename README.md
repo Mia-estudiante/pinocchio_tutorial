@@ -41,7 +41,19 @@ This tutorial series is designed to help learners understand:
 │ ├── inverse_dynamics_pm.py  
 │ ├── forward_dynamics_aba.py  
 │ ├── meshcat-viewer.py (go2)  
-│  
+│ ├── build-reduced-model.py
+│ ├── geometry-models.py
+│ ├── overview-simple.py
+│ ├── overview-urdf.py
+│ ├── kinematics-derivatives.py
+│
+├── 1_geometry/
+│ ├── geo.ipynb
+│
+├── 2_kinematics/
+│ ├── ik.ipynb
+│ ├── tiago_loader.py
+│
 └── README.md  
 
 
