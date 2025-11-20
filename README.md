@@ -85,7 +85,18 @@ pip install jupyterlab
 pip install matplotlib>=3.10.0
 pip install proxsuite==0.7.1
 ```
+## ⚙️ Execution
 
+Once you placed the codes into the folders belong, (or export the model dir path correctly,)  
+you can execute the example code by:
+```
+home:~/pinocchio/examples$ python inverse_dynamics_pm.py
+nq = 2 nv = 2
+Joint torques: [-24.85364489  -8.61740833]
+  
+home:~/pinocchio/examples$ python forward_dynamics_aba.py
+Joint accelerations: [-3.76557097e-09  1.00000001e+00]
+```
 ---
 
 ## 🔗 External References
