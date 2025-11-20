@@ -28,33 +28,31 @@ This tutorial series is designed to help learners understand:
 ---
 
 ## 📂 Repository Structure
-.  
-├── slides/  
-│ ├── 01_Pinocchio_Introduction.pdf  
-│ ├── 02_Pinocchio_Examples.pdf  
-│ ├── 03_Pinocchio_Tutorials.pdf  
-│  
-├── double_pendulum/urdf/  
-│ ├── double_pendulum_point_mass.urdf  
-│  
-├── examples/  
-│ ├── inverse_dynamics_pm.py  
-│ ├── forward_dynamics_aba.py  
-│ ├── meshcat-viewer.py (go2)  
-│ ├── build-reduced-model.py
-│ ├── geometry-models.py
-│ ├── overview-simple.py
-│ ├── overview-urdf.py
-│ ├── kinematics-derivatives.py
-│
+```
+├── slides/
+│   ├── Lecture1. Pinocchio Introduction.pdf
+│   ├── Lecture2. Pinocchio Examples.pdf
+│   └── Lecture3. Pinocchio Tutorials.pdf
+├── double_pendulum/urdf/
+│   ├── double_pendulum_point_mass.urdf
+├── examples/
+│   ├── inverse_dynamics_pm.py
+│   ├── forward_dynamics_aba.py 
+│   ├── meshcat-viewer.py (go2)
+│   ├── build-reduced-model.py
+│   ├── geometry-models.py
+│   ├── overview-simple.py
+│   ├── overview-urdf.py
+│   └── kinematics-derivatives.py
 ├── 1_geometry/
-│ ├── geo.ipynb
-│
+│   ├── geo.ipynb
 ├── 2_kinematics/
-│ ├── ik.ipynb
-│ ├── tiago_loader.py
-│
+│   ├── ik.ipynb
+│   ├── tiago_loader.py
+├── check_collision.ipynb
+├── model_and_data.ipynb
 └── README.md  
+```
 
 
 ---
