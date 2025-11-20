@@ -78,7 +78,7 @@ Install dependencies:
 conda create -n pin python=3.10
 ```
 ```
-conda install pinocchio -c conda-forge
+pip install pinocchio
 pip install meshcat
 pip install numpy scipy>=1.15.0
 pip install jupyterlab
