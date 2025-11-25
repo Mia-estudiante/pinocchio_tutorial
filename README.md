@@ -23,9 +23,13 @@ This tutorial series is designed to help learners understand:
 - How collision detection works using geometry models  
 - How to visualize robots using Meshcat/Gepetto  
 - How to compute robot dynamics (RNEA, ABA)  
-- How to run simulations and apply simple control laws  
+- How to run simulations and apply simple control laws
+- How to optimize the trajectory using Crocoddyl  
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/03b812a7-7134-40d9-bee5-cd066b6a229e" width="45%"> 
+  <img src="https://github.com/user-attachments/assets/52b4892e-9a43-4053-97c9-23d873b4eff7" width="45%">
+</p>
 
----
 
 ## 📂 Repository Structure
 ```
@@ -34,23 +38,28 @@ This tutorial series is designed to help learners understand:
 │   ├── Lecture2. Pinocchio Examples.pdf
 │   └── Lecture3. Pinocchio Tutorials.pdf
 ├── double_pendulum/urdf/
-│   ├── double_pendulum_point_mass.urdf
+│   └── double_pendulum_point_mass.urdf
 ├── examples/
-│   ├── inverse_dynamics_pm.py
-│   ├── forward_dynamics_aba.py 
 │   ├── meshcat-viewer.py (go2)
 │   ├── build-reduced-model.py
 │   ├── geometry-models.py
 │   ├── overview-simple.py
 │   ├── overview-urdf.py
 │   └── kinematics-derivatives.py
-├── 1_geometry/
-│   ├── geo.ipynb
-├── 2_kinematics/
-│   ├── ik.ipynb
-│   ├── tiago_loader.py
-├── check_collision.ipynb
-├── model_and_data.ipynb
+├── 2_Pinocchio_examples/
+│   ├── check_collision.ipynb
+│   └── model_and_data.ipynb
+├── 3_Pinocchio_tutorials/
+│   ├── 1_geometry/
+│   │   └── geo.ipynb
+│   ├── 2_kinematics/
+│   │   ├── ik.ipynb
+│   │   └── tiago_loader.py
+│   ├── 3_dynamics/
+│   │   ├── inverse_dynamics_pm.py
+│   │   └── forward_dynamics_aba.py 
+│   ├── 4_optcontrol/
+│   │   └── panda_reaching_sequence_of_targets.ipynb
 └── README.md  
 ```
 
@@ -78,23 +87,14 @@ This tutorial series is designed to help learners understand:
 - Forward geometry  
 - Inverse geometry  
 - Inverse kinematics (including Jacobians)  
-- Dynamics  
+- Dynamics
+- Optimal control  
   
 ## 🔧 Installation
 
-Highly recommended to use virtual environment
-Install dependencies:
-```
-conda create -n pin python=3.10
-```
-```
-pip install pinocchio
-pip install meshcat
-pip install numpy scipy>=1.15.0
-pip install jupyterlab
-pip install matplotlib>=3.10.0
-pip install proxsuite==0.7.1
-```
+Highly recommended to use virtual environment  
+Follow the setup of [Gepetto/supaero2025](https://github.com/Gepetto/supaero2025?tab=readme-ov-file#set-up)  
+
 ## ⚙️ Execution
 
 Once you placed the codes into the folders belong, (or export the model dir path correctly,)  
