@@ -114,8 +114,8 @@ Joint accelerations: [-3.76557097e-09  1.00000001e+00]
 
 GitHub: https://github.com/stack-of-tasks/pinocchio
 
-Docs: https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/
+Docs: https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/devel/doxygen-html
 
 ### 📌 Supaero 2025 Robotics Course
 
-GitHub: https://github.com/machines-in-motion/supaero2025
+GitHub: https://github.com/Gepetto/supaero2025
