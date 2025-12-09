@@ -13,7 +13,7 @@ It includes lecture slides, example codes and YouTube links covering robot dynam
 - **Lecture 3:** Supaero2025 Walkthrough  
 
 [Playlist of 1.1, 2.3, 2.4, 3.3, 3.4, 3.5](https://youtube.com/playlist?list=PL5i0ThRFrlDXmFiudX2GwZLCyZ3KLb6uL&si=Ne1lANIXQkPWy95v)  
-[Playlist of 1.2, 2.1, 2.2, 3.1, 3.2](https://www.youtube.com/playlist?list=PLjhswBSqp70Fyc8-ZRRJP7SNtRlcAInCa)  
+[Playlist of 1.2, 2.1, 2.2, 3.1, 3.2, 3.6](https://www.youtube.com/playlist?list=PLjhswBSqp70Fyc8-ZRRJP7SNtRlcAInCa)  
 
 ---
 
@@ -62,6 +62,8 @@ This tutorial series is designed to help learners understand:
 │   │   └── forward_dynamics_aba.py 
 │   ├── 4_optcontrol/
 │   │   └── panda_reaching_sequence_of_targets.ipynb
+│   ├── 5_kinematics_jacobian/
+│   │   └──src.zip
 └── README.md  
 ```
 
@@ -88,9 +90,10 @@ This tutorial series is designed to help learners understand:
 ### Lecture 3 — Pinocchio Tutorials (Supaero2025)
 - Forward geometry  
 - Inverse geometry  
-- Inverse kinematics (including Jacobians)  
+- Inverse kinematics
 - Dynamics
-- Optimal control  
+- Optimal control
+- Jacobian 
   
 ## 🔧 Installation
 
